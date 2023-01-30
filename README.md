@@ -1,14 +1,18 @@
 # Chord-Wizard
 GA Project 1
 
-Project Name : Chord-Wizard
+Project Name : *Chord-Wizard
 The name of your project with deployed URL.
 
-Project Description: produces a pseudo-random chord progression
+Project Description:
  Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+ 
+*This Produces a pseudo-random chord progression, where it will generate a random chord progression, but can accept some parameters to better tailor the chord progression to the Users preference. 
 
 API and Data Sample
 Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+
+*** write a fetch() and pull the db from uberchord
 
 https://api.uberchord.com/#strings-pattern
 https://docs.metronome.com/api/
@@ -16,31 +20,34 @@ https://docs.metronome.com/api/
 
 Wireframes
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+USE EXCALIDRAW
 
 MVP/PostMVP
 The functionality will then be divided into two separate lists: MPV and PostMVP. Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.
 
-MVP
+*MVP
 These are examples only. Replace with your own MVP features.
+-Find Chord Library
+-Build Logic for chord progression
+-app will produce a valid random chord progression and display for the user
+-app will also display how to play each generated chord
 
-Find and use external api
-Render data on page
-Allow user to choose favorites
-PostMVP
-These are examples only. Replace with your own Post-MVP features.
+*Post-MVP
+- add metronome functionality as a tool on the page
+- user can add parameters to the generated progression
+- user can star/favorite generated progressions
 
-Add second API
-Use local storage to save user favorites
+
 Project Schedule
 This schedule will be used to keep track of your progress throughout the week and align with our expectations.
 
 You are responsible for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding Saturday and Sunday.
 
 Day	Deliverable	Status
-April 16-18	Prompt / Wireframes / Priority Matrix / Timeframes	Incomplete
-April 19	Project Approval	Incomplete
-April 20	Core Application Structure (HTML, CSS, etc.)	Incomplete
-April 20	Pseudocode / actual code	Incomplete
+January 31s	Prompt / Wireframes / Priority Matrix / Timeframes	Incomplete
+Feb 1		Project Approval	Incomplete
+Feb 2		Core Application Structure (HTML, CSS, etc.)	Incomplete
+Feb 2		Pseudocode / actual code	Incomplete
 April 21	Initial Clickable Model	Incomplete
 April 22	MVP	Incomplete
 April 23	Presentations	Incomplete
