@@ -39,7 +39,7 @@ GetChord('D')
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
 USE EXCALIDRAW
 
-![image](https://user-images.githubusercontent.com/122394668/215829281-98f79ccf-654d-4f32-a09d-9d7f9e59c5f3.png)
+![image](/Images/matrix.png)
 
 
 MVP/PostMVP:
@@ -89,7 +89,7 @@ Include a full list of features that have been prioritized based on the Time and
 
 2) a linked event that displays the fingers of the chords, pulled from the Generator
 
-<img width="1054" alt="image" src="https://user-images.githubusercontent.com/122394668/215854908-d7964c5b-ae9d-4f30-8fdd-cc5ed94bad43.png">
+![img](/Images/matrix.png)
 
 
 ## Timeframes
