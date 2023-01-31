@@ -18,6 +18,21 @@ https://api.uberchord.com/#strings-pattern
 https://docs.metronome.com/api/
 
 
+async function getChord(chord) {
+const url = `https://api.uberchord.com/v1/chords/${chord}`
+
+  try {
+    const res = await fetch(url)
+    const json = await res.json()
+    console.log(json);
+    return json;
+  
+  } catch (error) {
+    console.log('');
+  }
+}
+
+
 Wireframes
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
 USE EXCALIDRAW
@@ -44,13 +59,13 @@ This schedule will be used to keep track of your progress throughout the week an
 You are responsible for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding Saturday and Sunday.
 
 Day	Deliverable	Status
-January 31s	Prompt / Wireframes / Priority Matrix / Timeframes	Incomplete
-Feb 1		Project Approval	Incomplete
-Feb 2		Core Application Structure (HTML, CSS, etc.)	Incomplete
-Feb 2		Pseudocode / actual code	Incomplete
-April 21	Initial Clickable Model	Incomplete
-April 22	MVP	Incomplete
-April 23	Presentations	Incomplete
+January 31	Prompt / Wireframes / Priority Matrix / Timeframes	Incomplete
+January 31		Project Approval	Incomplete
+Feb 1		Core Application Structure (HTML, CSS, etc.)	Incomplete
+Feb 1		Pseudocode / actual code	Incomplete
+Feb 2		Initial Clickable Model	Incomplete
+Feb 3	MVP	Incomplete
+Feb 6	Presentations	Incomplete
 Priority Matrix
 Include a full list of features that have been prioritized based on the Time and Importance Matrix. Link this image in a similar manner to your wireframes
 
