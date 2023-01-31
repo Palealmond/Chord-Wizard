@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Papyrus, 'Times New Roman', Times, serif;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border: 3px solid black;
+  border-radius: 40%;
+  padding: 10px;
+}
+
+#blurb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  border: 3px solid black;
+  padding: 75px;
+  border-radius: 25%;
+
+}
