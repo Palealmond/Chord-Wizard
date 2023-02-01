@@ -36,7 +36,7 @@ GetChord('D')
 ```
 
 ## Wireframes
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+Upload images of your w$$ireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
 USE EXCALIDRAW
 
 ![image](/Images/Wireframe.png)
@@ -97,7 +97,7 @@ Tell us how long you anticipate spending on each area of development. Be sure to
 
 Component|	Priority|	Estimated Time|	Time Invested|	Actual Time|
 
-Building HTML/Styling	H	3hrs
+Building HTML/Styling	H	  3hrs            2hrs
 
 Building Logic/ AP Manipulation	H	6hrs
 

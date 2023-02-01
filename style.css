@@ -3,6 +3,8 @@
   src: url('/Font/JuliusSansOne-Regular.ttf');
 }
 
+
+
 * {
   margin: 0px;
   padding: 0px;
@@ -23,19 +25,45 @@ header h1 {
 
 #blurb {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   border-bottom: 10px solid rgb(19, 185, 116);
-  padding: 75px;
+  /* padding: 50px; */
+  height: 200px;
 }
 
-#blurb p {
-  margin-bottom: px;
+#welcome {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 24px 0;
 }
 
-.button {
+#flavor {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+#flavor span {
+  font-family: Papyrus;
+  font-weight: 800;
+  color: rgb(18, 150, 202);
+}
+
+button {
+  padding: 5px;
+  width: 300px;
+}
+
+.action {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.Key {
+  margin-top: 40px;
+  
 }
