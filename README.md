@@ -39,7 +39,7 @@ GetChord('D')
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
 USE EXCALIDRAW
 
-![image](/Images/matrix.png)
+![image](/Images/Wireframe.png)
 
 
 MVP/PostMVP:
@@ -68,11 +68,11 @@ MVP/PostMVP:
 
 Day	Deliverable	Status
 
-January 31:	Prompt / Wireframes / Priority Matrix / Timeframes	Incomplete
+January 31:	Prompt / Wireframes / Priority Matrix / Timeframes	Complete
 
-January 31:		Project Approval	Incomplete
+January 31:		Project Approval	Complete
 
-Feb 1:		Core Application Structure (HTML, CSS, etc.)	Incomplete
+Feb 1:		Core Application Structure (HTML, CSS, etc) Partial
 
 Feb 1:		Pseudocode / actual code	Incomplete
 
