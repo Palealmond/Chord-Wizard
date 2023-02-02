@@ -62,4 +62,18 @@ button {
   flex-direction: row;
   justify-content: center;
 }
-
+.output{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.output div {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  width: 250px;
+  height: 200px;
+  border: 1px solid black;
+  margin-top: 50px;
+  /* margin-left: 150px */
+}
