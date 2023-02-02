@@ -4,7 +4,7 @@ const KEY = document.getElementById('Key')
 const PROG = document.getElementById('prog')
 const FINGER = document.getElementById('finger')
 const GENERATE = document.getElementById('generator')
-const keys = ['A', 'A minor', 'A#', 'A# minor', 'B', 'B minor', 'C', 'C minor', 'C#', 'C# minor', 'D', 'D minor', 'D#', 'D# minor', 'E', 'E minor', 'F', 'F minor', 'F#', 'F# minor', 'G', 'G minor', 'G#', 'G#minor'];
+const keys = ['', 'A', 'A minor', 'A#', 'A# minor', 'B', 'B minor', 'C', 'C minor', 'C#', 'C# minor', 'D', 'D minor', 'D#', 'D# minor', 'E', 'E minor', 'F', 'F minor', 'F#', 'F# minor', 'G', 'G minor', 'G#', 'G#minor'];
 
 
 
