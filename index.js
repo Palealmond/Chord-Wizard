@@ -4,7 +4,7 @@ const KEY = document.getElementById('Key')
 const PROG = document.getElementById('prog')
 const STRINGS = document.getElementById('strings')
 const GENERATE = document.getElementById('generator')
-const keys = ['', 'A', 'A minor', 'A#', 'A# minor', 'B', 'B minor', 'C', 'C minor', 'C#', 'C# minor', 'D', 'D minor', 'D#', 'D# minor', 'E', 'E minor', 'F', 'F minor', 'F#', 'F# minor', 'G', 'G minor', 'G#', 'G#minor'];
+const keys = ['', 'A', 'A minor', 'A#', 'A# minor', 'B', 'B minor', 'C', 'C minor', 'C#', 'C# minor', 'D', 'D minor', 'D#', 'D# minor', 'E', 'E minor', 'F', 'F minor', 'F#', 'F# minor', 'G', 'G minor', 'G#', 'G# minor'];
 
 async function getChord(chord) {
   const url = `https://api.uberchord.com/v1/chords/${chord}`
@@ -20,7 +20,7 @@ async function getChord(chord) {
   }
 }
 
-getChord('Db_m')
+// getChord('Db_m')
 
 
 
@@ -60,23 +60,71 @@ const Gb_minor = { i: 'Gb_m', ii: 'Ab_m', IIIb: 'A', iv: 'B_m', v: 'Db_m', VIb: 
 const G_minor = { i: 'G_m', ii: 'A_m', IIIb: 'Bb', iv: 'C_m', v: 'D_m', VIb: 'Eb', VIIb: 'F' };
 const Ab_minor = { i: 'Ab_m', ii: 'Bb_m', IIIb: 'B', iv: 'Db_m', v: 'Eb_m', VIb: 'E', VIIb: 'Gb' };
 
-KEY.addEventListener('change', (event) => {
-  console.log(event.target.value);
-  let selectKey = event.target.value;
-  switch (selectKey) {
+
+GENERATE.addEventListener('click', () => {
+  const chord = KEY.value;
+  console.log(chord);
+
+  switch (chord) {
+    case 'A#':
+      getChord(Bb.I)
+      break;
+    case 'C#':
+      getChord(Db.I)
+      break;
+    case 'D#':
+      getChord(Eb.I)
+      break;
+    case 'F#':
+      getChord(Gb.I)
+      break;
+    case 'G#':
+      getChord(Ab.I)
+      break;
     case 'A minor':
-
-
+      getChord(A_minor.i)
+      break;
+    case 'A# minor':
+      getChord(Bb_minor.i)
+      break;
+    case 'B minor':
+      getChord(B_minor.i)
+      break;
+    case 'C minor':
+      getChord(C_minor.i)
+      break;
+    case 'C# minor':
+      getChord(Db_minor.i)
+      break;
+    case 'D minor':
+      getChord(D_minor.i)
+      break;
+    case 'D# minor':
+      getChord(Eb_minor.i)
+      break;
+    case 'E minor':
+      getChord(E_minor.i)
+      break;
+    case 'F minor':
+      getChord(F_minor.i)
+      break;
+    case 'F# minor':
+      getChord(Gb_minor.i)
+      break;
+    case 'G minor':
+      getChord(G_minor.i)
+      break;
+    case 'G# minor':
+      getChord(Ab_minor.i)
       break;
 
     default:
+      getChord(chord)
       break;
   }
 
-})
-
-GENERATE.addEventListener('click', () => {
-  console.log('fuck you');
+  // console.log(chord);
+  // console.log('fuck you');
   PROG.innerHTML = ('')
   STRINGS.innerHTML = ('')
 
