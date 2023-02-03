@@ -60,69 +60,14 @@ const Gb_minor = { i: 'Gb_m', ii: 'Ab_m', IIIb: 'A', iv: 'B_m', v: 'Db_m', VIb: 
 const G_minor = { i: 'G_m', ii: 'A_m', IIIb: 'Bb', iv: 'C_m', v: 'D_m', VIb: 'Eb', VIIb: 'F' };
 const Ab_minor = { i: 'Ab_m', ii: 'Bb_m', IIIb: 'B', iv: 'Db_m', v: 'Eb_m', VIb: 'E', VIIb: 'Gb' };
 
+// const getRandom = (chord) => {
 
-GENERATE.addEventListener('click', () => {
+//     Math.floor(Math.random(chord) * 6) + 1
+
+// }
+GENERATE.addEventListener('click', async () => {
   const chord = KEY.value;
   console.log(chord);
-
-  switch (chord) {
-    case 'A#':
-      getChord(Bb.I)
-      break;
-    case 'C#':
-      getChord(Db.I)
-      break;
-    case 'D#':
-      getChord(Eb.I)
-      break;
-    case 'F#':
-      getChord(Gb.I)
-      break;
-    case 'G#':
-      getChord(Ab.I)
-      break;
-    case 'A minor':
-      getChord(A_minor.i)
-      break;
-    case 'A# minor':
-      getChord(Bb_minor.i)
-      break;
-    case 'B minor':
-      getChord(B_minor.i)
-      break;
-    case 'C minor':
-      getChord(C_minor.i)
-      break;
-    case 'C# minor':
-      getChord(Db_minor.i)
-      break;
-    case 'D minor':
-      getChord(D_minor.i)
-      break;
-    case 'D# minor':
-      getChord(Eb_minor.i)
-      break;
-    case 'E minor':
-      getChord(E_minor.i)
-      break;
-    case 'F minor':
-      getChord(F_minor.i)
-      break;
-    case 'F# minor':
-      getChord(Gb_minor.i)
-      break;
-    case 'G minor':
-      getChord(G_minor.i)
-      break;
-    case 'G# minor':
-      getChord(Ab_minor.i)
-      break;
-
-    default:
-      getChord(chord)
-      break;
-  }
-
   // console.log(chord);
   // console.log('fuck you');
   PROG.innerHTML = ('')
@@ -131,9 +76,98 @@ GENERATE.addEventListener('click', () => {
   for (let i = 0; i < 4; i++) {
     let chordBox = document.createElement('div')
     let stringBox = document.createElement('div')
+
+    if (i === 0) {
+      chordBox.textContent = chord
+      stringBox.textContent = (await translateKey(chord))[0].strings;
+    }
+
     PROG.append(chordBox)
     STRINGS.append(stringBox)
   };
 
 
 });
+
+
+async function translateKey(chord) {
+  switch (chord) {
+    case 'A':
+      return getChord(A.I)
+
+    case 'A#':
+      return getChord(Bb.I)
+
+    case 'B':
+      return getChord(B.I)
+
+    case 'C':
+      return getChord(C.I)
+
+    case 'C#':
+      return getChord(Db.I)
+
+    case 'D':
+      return getChord(D.I)
+
+    case 'D#':
+      return getChord(Eb.I)
+
+    case 'E':
+      return getChord(E.I)
+
+    case 'F':
+      return getChord(F.I)
+
+    case 'F#':
+      return getChord(Gb.I)
+
+    case 'G':
+      return getChord(G.I)
+
+    case 'G#':
+      return getChord(Ab.I)
+
+    case 'A minor':
+      return getChord(A_minor.i)
+
+    case 'A# minor':
+      return getChord(Bb_minor.i)
+
+    case 'B minor':
+      return getChord(B_minor.i)
+
+    case 'C minor':
+      return getChord(C_minor.i)
+
+    case 'C# minor':
+      return getChord(Db_minor.i)
+
+    case 'D minor':
+      return getChord(D_minor.i)
+
+    case 'D# minor':
+      return getChord(Eb_minor.i)
+
+    case 'E minor':
+      return getChord(E_minor.i)
+
+    case 'F minor':
+      return getChord(F_minor.i)
+
+    case 'F# minor':
+      return getChord(Gb_minor.i)
+
+    case 'G minor':
+      return getChord(G_minor.i)
+
+    case 'G# minor':
+      return getChord(Ab_minor.i)
+
+
+    default:
+      alert('You gotta pick a key dummy!')
+
+
+  }
+}

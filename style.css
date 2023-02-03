@@ -1,6 +1,6 @@
 @font-face {
   font-family: JuliusSansOne;
-  src: url('/Font/JuliusSansOne-Regular.ttf');
+  src: url('./Font/JuliusSansOne-Regular.ttf');
 }
 
 
@@ -21,6 +21,11 @@ header h1 {
   padding: 10px;
 
 }
+
+/* #image {
+  background-image: url('./Images/guitar_img.png');
+ 
+} */
 
 
 #blurb {
@@ -62,17 +67,28 @@ button {
   flex-direction: row;
   justify-content: center;
 }
-.output{
+
+.output {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
+
 .output div {
   display: inline-flex;
   justify-content: center;
   align-content: center;
+  align-items: center;
+  font-size: 25px;
   width: 250px;
   height: 200px;
   border: 1px solid black;
   margin-top: 50px;
+}
+
+footer {
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+  margin-top: 25px;
 }
