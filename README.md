@@ -72,15 +72,15 @@ January 31:	Prompt / Wireframes / Priority Matrix / Timeframes	Complete
 
 January 31:		Project Approval	Complete
 
-Feb 1:		Core Application Structure (HTML, CSS, etc) Partial
+Feb 1:		Core Application Structure (HTML, CSS, etc) Complete
 
-Feb 1:		Pseudocode / actual code	Incomplete
+Feb 1:		Pseudocode / actual code	Complete
 
-Feb 2:		Initial Clickable Model	Incomplete
+Feb 2:		Initial Clickable Model	Complete
 
-Feb 3:	MVP	Incomplete
+Feb 3:	MVP	Complete
 
-Feb 6:	Presentations	Incomplete
+Feb 6:	Presentations	Complete
 
 ## Priority Matrix
 Include a full list of features that have been prioritized based on the Time and Importance Matrix. Link this image in a similar manner to your wireframes
