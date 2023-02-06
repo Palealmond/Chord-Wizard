@@ -95,19 +95,7 @@ Include a full list of features that have been prioritized based on the Time and
 ![img](/Images/matrix.png)
 
 
-## Timeframes
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Component|	Priority|	Estimated Time|	Time Invested|	Actual Time|
-
-Building HTML/Styling	H	  3hrs            2hrs
-
-Building Logic/ AP Manipulation	H	6hrs
-
-Finalizing/debug	4hrs
-
-Total	H	13hrs	
 
 ## Change Log
-Use this section to document what changes were made and the reasoning behind those changes.
+Use this bih for post-mvp stuff. 
 
