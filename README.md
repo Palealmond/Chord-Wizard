@@ -2,6 +2,9 @@
 GA Project 1
 
 ## Project Name : Chord-Wizard
+(PAGES LINK)
+https://palealmond.github.io/Chord-Wizard/
+
 
 https://github.com/Palealmond/Chord-Wizard/
 
