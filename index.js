@@ -84,7 +84,7 @@ const getRandom = (chord) => {
 GENERATE.addEventListener('click', async () => {
   const chord = KEY.value;
   console.log(chord);
-  if (chord === '') { alert('Need to pick a key dumbass') }
+  if (chord === '') { alert('Gotta choose a key!') }
   // console.log(chord);
   // console.log('fuck you');
   PROG.innerHTML = ('')
@@ -120,84 +120,3 @@ GENERATE.addEventListener('click', async () => {
 });
 
 
-// async function translateKey(chord) {
-//   switch (chord) {
-//     case 'A':
-//       return A
-
-//     case 'A#':
-//       return await getChord(Bb.i)
-
-//     case 'B':
-//       return await getChord(B.i)
-
-//     case 'C':
-//       return await getChord(C.i)
-
-//     case 'C#':
-//       return await getChord(Db.i)
-
-//     case 'D':
-//       return await getChord(D.i)
-
-//     case 'D#':
-//       return await getChord(Eb.i)
-
-//     case 'E':
-//       return await getChord(E.i)
-
-//     case 'F':
-//       return await getChord(F.i)
-
-//     case 'F#':
-//       return await getChord(Gb.i)
-
-//     case 'G':
-//       return await getChord(G.i)
-
-//     case 'G#':
-//       return await getChord(Ab.i)
-
-//     case 'A minor':
-//       return await getChord(A_minor.i)
-
-//     case 'A# minor':
-//       return await getChord(Bb_minor.i)
-
-//     case 'B minor':
-//       return await getChord(B_minor.i)
-
-//     case 'C minor':
-//       return await getChord(C_minor.i)
-
-//     case 'C# minor':
-//       return await getChord(Db_minor.i)
-
-//     case 'D minor':
-//       return await getChord(D_minor.i)
-
-//     case 'D# minor':
-//       return await getChord(Eb_minor.i)
-
-//     case 'E minor':
-//       return await getChord(E_minor.i)
-
-//     case 'F minor':
-//       return await getChord(F_minor.i)
-
-//     case 'F# minor':
-//       return await getChord(Gb_minor.i)
-
-//     case 'G minor':
-//       return await getChord(G_minor.i)
-
-//     case 'G# minor':
-//       return await getChord(Ab_minor.i)
-
-
-//     default:
-//       alert('You gotta pick a key dummy!')
-
-
-//   }
-// }
